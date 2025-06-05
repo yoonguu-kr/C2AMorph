@@ -10,9 +10,6 @@ The model leverages conditional contrastive learning and attention-based hyperpa
 - **Attention-based hyperparameter conditioning** for dynamic modulation.
 - Achieves state-of-the-art performance on brain MRI datasets (e.g., OASIS, LPBA).
 
-## 📁 Project Structure
-<pre> ``` ├── models/ # Network architectures ├── datasets/ # Data loading and preprocessing ├── utils/ # Loss functions, metrics, etc. ├── train.py # Training script ├── test.py # Evaluation script └── README.md ``` </pre>
-
 ## 🚀 Getting Started
 
 1. **Install dependencies**
@@ -31,3 +28,8 @@ python train.py
 
 ## Evaluate the model
 python test.py --checkpoint checkpoints/model.pth
+
+## 🔒 License
+This project is licensed under the MIT License.
+
+
