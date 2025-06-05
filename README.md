@@ -33,7 +33,10 @@ _C.DATASET.DATA_PATH_LABELS = 'yourDatasetDirectory/img_labels.nii.gz'
 python train.py
 
 ## Evaluate the model
-python test.py --checkpoint checkpoints/model.pth
+python test.py
+
+## To modify model['s minor training variables
+Change the variables in config.py to give some adjustment into the model
 
 ## 🔒 License
 This project is licensed under the MIT License.
