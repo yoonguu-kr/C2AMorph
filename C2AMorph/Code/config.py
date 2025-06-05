@@ -46,9 +46,9 @@ _C.MODEL.Start_Channel=4
 _C.MODEL.Ch_magnitude=4
 
 if _C.DATASET.DATATYPE == 'LPBA40_small':
-    _C.DATASET.DATA_PATH = 'E:\\Brain\\LPBA40\\from_CLMorph'
-    _C.DATASET.DATA_PATH_IMGS = _C.DATASET.DATA_PATH + '/LPBA40_rigidly_registered_pairs_histogram_standardization_small_Whiten/l*_to_l*.nii'
-    _C.DATASET.DATA_PATH_LABELS = _C.DATASET.DATA_PATH + '/LPBA40_rigidly_registered_label_pairs_small_GoodLabel/l*_to_l*.nii'
+    _C.DATASET.DATA_PATH = ''
+    _C.DATASET.DATA_PATH_IMGS = _C.DATASET.DATA_PATH + 'l*_to_l*.nii'
+    _C.DATASET.DATA_PATH_LABELS = _C.DATASET.DATA_PATH + 'l*_to_l*.nii'
     _C.DATASET.PAIR = False
 
 
