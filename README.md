@@ -21,7 +21,13 @@ pip install -r requirements.txt
 
 ## Prepare datasets
 
-Download and organize OASIS or LPBA datasets under ./data/ directory.
+Download and organize OASIS or LPBA datasets
+put the saved dataset directory into config.py
+```
+_C.DATASET.DATA_PATH = 'yourDatasetDirectory'
+_C.DATASET.DATA_PATH_IMGS = 'yourDatasetDirectory/imgs.nii.gz'
+_C.DATASET.DATA_PATH_LABELS = 'yourDatasetDirectory/img_labels.nii.gz'
+```
 
 ## Train the model
 python train.py
